@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import HeaderCom from'./Header.js';
+import Banners from './Banners.js'
+import BackGround from './BackGround.js';
+import DisplayItems from './DisplayItems.js'
+import Cards from './Cards.js';
+import Cardslider from './Cardslider.js'
+//import Slider2 from './Slilder2.js';
+import TopDeals from './TopDeals.js';
+import Footer from './Footer.js';
 
-export default App;
+
+
+
+
+
+export default function App() {
+  return (<>
+    
+    <HeaderCom/>
+    <Banners/>
+    <BackGround/>
+    <DisplayItems/> 
+    <Cards/>
+    <Cardslider/>
+    <TopDeals/>
+    <Footer/>
+  
+    
+   
+   
+   
+    </>)}
+/**
+ * 
+ */
+
+
+   //   <Slider2/>     <Grey2/>    <CardSlider/>   
+   

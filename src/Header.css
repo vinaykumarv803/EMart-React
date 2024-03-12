@@ -1,0 +1,148 @@
+.Header-style
+{ 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+   /* background-color: #96c5fa;*/
+   background-color: #1f2c3b;;
+    color:rgb(238, 46, 46);
+    padding: 10px;
+   /* background-image: url('./pics/Bg12.1.jpg');*/
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+    
+  
+
+}
+
+
+
+nav ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+  
+  nav li 
+  {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  
+
+  .list-items:hover
+  {
+    background-color: #177ef5;
+    
+    box-shadow: 5px 5px 7px #918c8c;
+    transition: background-color 0.90s ease;
+    border-radius: 10px;
+    border-right: 10%;
+  }
+
+
+  .list-items
+  {
+    color: #9c1bdd;
+    font-style: italic;
+    font-size:medium;
+    padding: 5px;
+    
+  }
+
+
+
+  nav a 
+  {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+  .signup 
+  {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+
+
+
+  .login 
+  {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+
+
+  .header-buttons
+  {
+    display: flex;
+    gap: 10px;
+  }
+
+
+
+  .login:hover,.signup:hover
+  {
+    background-color: #14db1e;
+    transition: background-color 0.50s ease;
+    box-shadow: 5px 5px 10px #695151;
+    border-radius: 10%;
+  }
+
+
+  .login,.signup
+  {
+    border-radius: 10px;
+  
+    
+  }
+
+
+  .search-button
+  {
+    background-color: #c95cc0be;
+    color: white;
+    border: none;
+    /*padding: 10px 15px;*/
+    cursor: pointer;
+    border-radius: 7px;
+    height: 28px;
+  }
+
+
+  .input
+  {
+    border-radius: 7px;
+    height: 19px;
+    width: 240px;
+  }
+  .input:hover
+  {
+    transition: background-color 0.50s ease;
+    box-shadow: 5px 5px 10px #695151;
+  }
+
+
+  .search-button:hover
+  {
+    background-color: #8aeb0d;
+    transition: background-color 0.50s ease;
+    box-shadow: 5px 5px 10px #695151;
+    
+  }
+  
